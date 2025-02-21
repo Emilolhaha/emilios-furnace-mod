@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"7": "emiliomod:block/boosted_furnace",
+		"particle": "emiliomod:block/furnace_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#7"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#7"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#7"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#7"},
+				"up": {"uv": [16, 8, 8, 0], "texture": "#7"},
+				"down": {"uv": [16, 8, 8, 16], "texture": "#7"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -2, 0],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"firstperson_righthand": {
+			"translation": [0.5, -1.25, 1.5],
+			"scale": [0.57, 0.57, 0.44]
+		},
+		"firstperson_lefthand": {
+			"translation": [0.5, -1.25, 1.5],
+			"scale": [0.57, 0.57, 0.44]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"gui": {
+			"rotation": [25, 125, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "*": {
+      "item": "emiliomod:hyper_catalyst"
+    }
+  },
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "result": {
+    "item": "emiliomod:hypercoal",
+    "count": "8"
+  },
+  "show_notification": true
+}

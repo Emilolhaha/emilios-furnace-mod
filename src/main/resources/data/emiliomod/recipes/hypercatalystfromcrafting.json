@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "~": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "*": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "pattern": [
+    "#~#",
+    "#*#",
+    "#~#"
+  ],
+  "result": {
+    "item": "emiliomod:hyper_catalyst"
+  }
+}

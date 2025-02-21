@@ -1,0 +1,12 @@
+{
+  "item.emiliomod.hyper_catalyst": "Hyper Catalyst",
+  "item.emiliomod.hypercoal": "Hypercoal",
+  "item.emiliomod.idea_generator": "Idea Generator",
+
+  "block.emiliomod.energizer": "Energiser",
+  "block.emiliomod.boosted_furnace": "Boosted Furnace",
+
+  "blockentity.emiliomod.boosted_furnace": "Boosted Furnace",
+
+  "itemgroup.emiliogroup": "Emilio's Beautiful Mod"
+}
