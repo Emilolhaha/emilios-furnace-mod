@@ -2,7 +2,7 @@ package net.emilolhaha.emiliosfurnacemod.item;
 
 import net.emilolhaha.emiliosfurnacemod.EmiliosFurnaceMod;
 import net.emilolhaha.emiliosfurnacemod.block.ModBlocks;
-import net.emilolhaha.emiliosfurnacemod.block.entity.ModBlockEntities;
+import net.emilolhaha.emiliosfurnacemod.recipes.CookingRecipeBoostedSmelting;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,7 +23,7 @@ public class ModItemGroups {
                         // blocks
                         entries.add(ModBlocks.ENERGIZER);
                         entries.add(ModBlocks.BOOSTED_FURNACE);
-                        entries.add(ModBlockEntities.BOOSTED_FURNACE)
+                        entries.add(CookingRecipeBoostedSmelting.BOOSTED_FURNACE_BLOCK);
 
                     }).build());
 

@@ -1,7 +1,6 @@
 package net.emilolhaha.emiliosfurnacemod;
 
 import net.emilolhaha.emiliosfurnacemod.block.ModBlocks;
-import net.emilolhaha.emiliosfurnacemod.block.entity.ModBlockEntities;
 import net.emilolhaha.emiliosfurnacemod.item.ModItemGroups;
 import net.emilolhaha.emiliosfurnacemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -21,8 +20,6 @@ public class EmiliosFurnaceMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		// 3
 		ModBlocks.registerModBlocks();
-		// 4
-		ModBlockEntities.registerBlockEntities();
 
 	}
 }
