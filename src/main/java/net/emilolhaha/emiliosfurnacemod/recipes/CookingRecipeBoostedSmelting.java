@@ -33,7 +33,7 @@ public class CookingRecipeBoostedSmelting implements ModInitializer {
         // block
         BOOSTED_FURNACE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "boosted_furnace"), new BoostedFurnaceBlock(FabricBlockSettings.copyOf(Blocks.FURNACE)));
         // block item
-        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "boosted_furnace"), new BlockItem(BOOSTED_FURNACE_BLOCK, new Item.Settings(ModItemGroups.EMILIOGROUP)));
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "boosted_furnace"), new BlockItem(BOOSTED_FURNACE_BLOCK, new Item.Settings()));
         // block entity
         BOOSTED_FURNACE_BLOCK_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(MOD_ID, "boosted_furnace"),
                 BlockEntityType.Builder.create(BoostedFurnaceBlockEntity::new, BOOSTED_FURNACE_BLOCK).build(null));
