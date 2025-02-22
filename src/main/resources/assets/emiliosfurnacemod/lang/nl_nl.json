@@ -1,9 +1,9 @@
 {
-  "item.emiliomod.idea_generator": "Ideeëngenerator",
+  "item.emiliosfurnacemod.idea_generator": "Ideeëngenerator",
 
-  "block.emiliomod.boosted_furnace": "Opgevoerd Fornuis",
+  "block.emiliosfurnacemod.boosted_furnace": "Opgevoerd Fornuis",
 
-  "blockentity.emiliomod.boosted_furnace": "Opgevoerd Fornuis",
+  "blockentity.emiliosfurnacemod.boosted_furnace": "Opgevoerd Fornuis",
 
   "itemgroup.emiliogroup": "Emilio's Prachtige Mod"
 }

@@ -15,7 +15,7 @@ public class BoostedFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
 
     @Override
     protected Text getContainerName() {
-        return Text.translatable("container.boosted_furnace");
+        return Text.translatable("container.emiliosfurnacemod.boosted_furnace");
     }
 
     @Override
